@@ -13,8 +13,8 @@ public class Album {
     @Column(length=40)
     @GeneratedValue(generator="randomId")
     @GenericGenerator(name="randomId", strategy="org.cloudfoundry.samples.music.domain.RandomIdGenerator")
-    private String id;
 
+    private String id;
     private String title;
     private String artist;
     private String releaseYear;
