@@ -2,6 +2,7 @@
 applications:
 - name: afcea-app
   memory: 1G
+  instances: 2
   buildpack: java_buildpack_offline
   random-route: true
-  path: build/libs/spring-music.jar
+  path: build/libs/navy-carrier.jar
